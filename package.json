@@ -1,0 +1,12 @@
+{
+  "name": "harvest-co-2026-growth-strategy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Builds the Harvest & Co. 2026 strategy deck from the chart images",
+  "scripts": {
+    "deck": "node src/build_deck.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
